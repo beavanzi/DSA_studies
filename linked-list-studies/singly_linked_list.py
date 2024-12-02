@@ -26,8 +26,18 @@ def insert_at_tail(head: ListNode, val: int) -> ListNode:
     
     head.next = new_node
     return new_node
+
+def insert_at_index(head: ListNode, index: int, val: int) -> ListNode:
+    pass
     
-    
+def remove_at_head(head: ListNode) -> ListNode:
+    pass
+
+def remove_at_tail(head: ListNode) -> ListNode:
+    pass
+
+def remove_at_index(head: ListNode, index: int) -> ListNode:
+    pass
 
 head = ListNode(1)
 
@@ -36,7 +46,8 @@ head = insert_at_head(head, 0)
 tail = insert_at_tail(head.next, 2)
 
 assert(head.val, head.next.val, head.next.next.val, head.next.next.next) == (0, 1, 2, None)
-    
+
+
     
 
 
